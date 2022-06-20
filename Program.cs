@@ -10,13 +10,13 @@ namespace Task6
     {
         static void Main(string[] args)
         {
-            int total = 52;
-            int inRow = 3;
-            int filledRow = total / inRow;
-            total -= filledRow * inRow;
+            int totalPictures = 52;
+            int PicturesInRow = 3;
+            int filledRow = totalPictures / PicturesInRow;
+            totalPictures -= filledRow * PicturesInRow;
             
             Console.WriteLine($"Заолняно рядов : {filledRow}");
-            Console.WriteLine($"Осталось картинок : {total}");
+            Console.WriteLine($"Осталось картинок : {totalPictures}");
         }
     }
 }
