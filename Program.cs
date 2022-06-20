@@ -17,7 +17,7 @@ namespace Task6
             {
                 total -= 3;
             }
-            Console.WriteLine($"Заолняно рядов : {row}");
+            Console.WriteLine($"Заполняно рядов : {row}");
             Console.WriteLine($"Осталось картинок : {total}");
         }
     }
