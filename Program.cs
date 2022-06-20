@@ -15,7 +15,7 @@ namespace Task6
             int filledRow = totalPictures / PicturesInRow;
             totalPictures -= filledRow * PicturesInRow;
             
-            Console.WriteLine($"Заолняно рядов : {filledRow}");
+            Console.WriteLine($"Заполняно рядов : {filledRow}");
             Console.WriteLine($"Осталось картинок : {totalPictures}");
         }
     }
