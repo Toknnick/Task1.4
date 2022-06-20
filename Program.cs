@@ -11,13 +11,11 @@ namespace Task6
         static void Main(string[] args)
         {
             int total = 52;
-            int row = 0;
+            int inRow = 3;
+            int filledRow = total / inRow;
+            total -= filledRow * inRow;
             
-            for (;total > 3; row++)
-            {
-                total -= 3;
-            }
-            Console.WriteLine($"Заполняно рядов : {row}");
+            Console.WriteLine($"Заолняно рядов : {filledRow}");
             Console.WriteLine($"Осталось картинок : {total}");
         }
     }
