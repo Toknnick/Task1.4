@@ -11,9 +11,9 @@ namespace Task6
         static void Main(string[] args)
         {
             int totalPictures = 52;
-            int PicturesInRow = 3;
-            int filledRow = totalPictures / PicturesInRow;
-            totalPictures -= filledRow * PicturesInRow;
+            int picturesInRow = 3;
+            int filledRow = totalPictures / picturesInRow;
+            totalPictures -= filledRow * picturesInRow;
             
             Console.WriteLine($"Заполняно рядов : {filledRow}");
             Console.WriteLine($"Осталось картинок : {totalPictures}");
